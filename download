@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv
+venv/
+env/
+
+# Arquivos de dados (fazer upload pelo site)
+data/*.xlsx
+data/*.xls
+templates/*.pptx
+
+# Manter as pastas vazias
+!data/.gitkeep
+!templates/.gitkeep
+
+# Frontend build
+frontend/dist/
+
+# Temp
+*.log
+uploads/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
